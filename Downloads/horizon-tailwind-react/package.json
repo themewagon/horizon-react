@@ -2,6 +2,7 @@
   "name": "horizon-ui-tailwind-react",
   "version": "2.0.0",
   "private": true,
+  "homepage": "https://themewagon.github.io/horizon-react",
   "dependencies": {
     "@chakra-ui/hooks": "^2.1.4",
     "@chakra-ui/modal": "^2.2.9",
@@ -31,7 +32,9 @@
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
-    "pretty": "prettier --write \"./**/*.{js,jsx,json}\""
+    "pretty": "prettier --write \"./**/*.{js,jsx,json}\"",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
   },
   "eslintConfig": {
     "extends": [
@@ -54,6 +57,7 @@
   "devDependencies": {
     "@babel/plugin-transform-private-property-in-object": "^8.0.1",
     "autoprefixer": "^10.4.8",
+    "gh-pages": "^6.3.0",
     "postcss": "^8.4.16",
     "prettier": "^2.8.3",
     "prettier-plugin-tailwindcss": "^0.2.1",

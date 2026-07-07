@@ -19,7 +19,7 @@ const Footer = () => {
           </li>
           <li>
             <a
-              href="#!"
+              href="#/admin/default"
               className="text-base font-medium text-gray-600 hover:text-gray-600"
             >
               License
@@ -27,7 +27,7 @@ const Footer = () => {
           </li>
           <li>
             <a
-              href="#!"
+              href="#/admin/default"
               className="text-base font-medium text-gray-600 hover:text-gray-600"
             >
               Terms of Use
@@ -35,7 +35,7 @@ const Footer = () => {
           </li>
           <li>
             <a
-              href="#!"
+              href="#/admin/default"
               className="text-base font-medium text-gray-600 hover:text-gray-600"
             >
               Blog
